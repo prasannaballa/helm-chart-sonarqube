@@ -9,7 +9,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   source:
     path: charts/sonarqube
-    repoURL: 'https://github.com/SonarSource/helm-chart-sonarqube.git'
+    repoURL: 'https://github.com/prasannaballa/helm-chart-sonarqube'
     targetRevision: HEAD
     helm:
       valueFiles:
